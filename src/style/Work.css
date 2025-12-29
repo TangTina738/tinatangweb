@@ -1,6 +1,4 @@
-/* -----------------------------
-   MEDIA CONTAINER
------------------------------- */
+
 .work-media {
   position: relative;
   overflow: hidden;
@@ -15,9 +13,7 @@
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-/* -----------------------------
-   VIDEO / IMAGE MEDIA
------------------------------- */
+
 .work-video,
 .work-cover {
   width: 100%;
@@ -26,12 +22,10 @@
   display: block;
   transition: transform 0.3s ease;
 
-  pointer-events: none; /* 🔑 prevents native cursor from video */
+  pointer-events: none; 
 }
 
-/* -----------------------------
-   DARK OVERLAY
------------------------------- */
+
 .work-media::after {
   content: "";
   position: absolute;
@@ -39,38 +33,32 @@
   background: rgba(40, 40, 40, 0.35);
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none; /* 🔑 overlay never steals hover */
+  pointer-events: none; 
 }
 
 .work-media:hover::after {
   opacity: 1;
 }
 
-/* -----------------------------
-   HOVER SCALE
------------------------------- */
+
 .work-media:hover .work-video,
 .work-media:hover .work-cover {
   transform: scale(1.02);
 }
 
-/* -----------------------------
-   LINK (ANCHOR) FIX
------------------------------- */
+
 .work-media-link,
 .work-media-link:link,
 .work-media-link:visited,
 .work-media-link:hover,
 .work-media-link:active,
 .work-media-link * {
-  cursor: none !important;   /* 🔑 kill pointer cursor */
+  cursor: none !important;   
   display: block;
   text-decoration: none;
 }
 
-/* -----------------------------
-   LAYOUT / TEXT
------------------------------- */
+
 .work-row {
   padding-top: 46px;
 }

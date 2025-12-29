@@ -13,7 +13,7 @@ body {
   pointer-events: none;
   transform: translate(-50%, -50%);
   z-index: 9999;
-  transition: transform 0.15s ease; /* ✅ only animate transform */
+  transition: transform 0.15s ease; 
 }
 
 /* click effect */
@@ -21,7 +21,7 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-/* 👇 MEDIA HOVER CURSOR */
+
 .cursor-media {
   width: 96px;
   height: 96px;
@@ -32,4 +32,15 @@ body {
   background-position: center;
   border-radius: 0;
   transition: none !important; 
+}
+
+/* Hide custom cursor on touch devices */
+@media (hover: none), (pointer: coarse) {
+  .cursor {
+    display: none !important;
+  }
+
+  body {
+    cursor: auto;
+  }
 }
