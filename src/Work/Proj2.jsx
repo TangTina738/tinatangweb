@@ -1,7 +1,7 @@
 import "./WorkStyle/Proj1.css";
 
 import ImageCarousel from "./animations/ImageCarousel";
-import FadeIn from "./animations/FadeIn";
+import FadeIn from "./animations/fadeIn";
 
 
 import vsaQuestion from "./WorkAssets/vsaQuestion.png";
