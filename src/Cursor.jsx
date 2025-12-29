@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-import "./Style/Cursor.css";
+import "./style/Cursor.css";
 
 function Cursor() {
   const cursorRef = useRef(null);

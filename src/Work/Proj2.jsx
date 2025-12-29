@@ -3,7 +3,7 @@ import "./WorkStyle/Proj1.css";
 import ImageCarousel from "./animations/ImageCarousel";
 import FadeIn from "./animations/FadeIn";
 
-import headImage from "./WorkAssets/WDS.png";
+
 import vsaQuestion from "./WorkAssets/vsaQuestion.png";
 import Feedback1 from "./WorkAssets/Feedback1.png";
 import Feedback2 from "./WorkAssets/Feedback2.png";
