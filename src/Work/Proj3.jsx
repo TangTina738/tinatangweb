@@ -1,5 +1,4 @@
-import React from 'react'
-import headImage from "./WorkAssets/shHead.png";
+
 import ImageCarousel from "./animations/ImageCarousel";
 
 import sh1 from "./WorkAssets/sh1.png";

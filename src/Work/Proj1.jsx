@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './WorkStyle/Proj1.css';
 import FadeIn from "./animations/fadeIn";
 import Vision from './WorkAssets/Vision.png';
-import Clubs from './WorkAssets/clubs.png';
+import Clubs from './WorkAssets/Clubs.png';
 
 import Wds from "./WorkAssets/wdsWork.mp4";
 
