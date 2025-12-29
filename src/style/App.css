@@ -1,0 +1,16 @@
+
+/*Ensure a responsive website */
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 12 equal columns */
+  gap: 14px; /* gutter */
+  padding-left: 28px;
+  padding-right: 28px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body{
+  cursor: none;
+}

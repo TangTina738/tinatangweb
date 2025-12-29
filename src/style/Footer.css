@@ -1,0 +1,39 @@
+.footer-designer{
+     color: #7D7474; 
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 24px;
+}
+
+
+.site-footer {
+  border-top: 1px solid rgba(20, 13, 74, 0.08);
+}
+
+.site-footer{
+  margin-top: 100px;
+}
+
+.footer-linkedin img {
+  width: 28px;      /* try 20–28px */
+  height: 28px;
+  display: block;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  cursor: none;
+}
+
+.footer-linkedin:hover img {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.hover-word {
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.hover-word:hover {
+  color: #140D4A;
+  font-weight: 400;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}

@@ -1,0 +1,29 @@
+.header-name {
+  color: #140D4A;
+  font-family: 'Kulim Park', sans-serif;
+}
+
+.header-designer {
+  color: #C9C2C2;
+  font-family: 'Kulim Park', sans-serif;
+}
+
+/* Default nav link */
+.nav-link-custom {
+  color: #787373 !important;
+  font-family: 'Kulim Park', sans-serif;
+  transition: color 0.25s ease;
+}
+
+/* Hover / focus / active */
+.nav-link-custom:hover,
+.nav-link-custom:focus {
+  color: #140D4A !important; 
+  text-decoration: none;
+  cursor: none;
+  font-weight: 600;
+}
+
+.py-4 {
+  box-shadow: 0 4px 2px -4px rgba(0,0,0,0.15);
+}

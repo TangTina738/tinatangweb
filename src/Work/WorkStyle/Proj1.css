@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+  .lower-block {
+    margin-top: 200px; 
+    
+  }
+}
+@media (min-width: 768px) {
+  .lower-text {
+    margin-top: 90px; /* adjust this value */
+  }
+}
+
+.problem{
+  padding-top: 40px;
+}
+
+.intro-img{
+  padding-top: 20px;
+}
+
+.strateg, .solution, .outcome, .takeaways{
+  padding-top: 40px;
+}
+
+
+@media (min-width: 768px) {
+  .lower-text {
+    margin-top: 90px; /* adjust this value */
+  }
+}
+
+.takeaways{
+  padding-bottom: 40px;
+}
+
+.context{
+  padding-top:40px;
+}

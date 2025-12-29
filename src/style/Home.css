@@ -1,0 +1,81 @@
+
+.home-section {
+  padding-top: 80px;
+}
+
+
+.home-title {
+  font-family: 'Jomolhari', serif;
+  font-size: 64px;
+  line-height: 1.1;
+  color: #140D4A; 
+  margin-bottom: 20px;
+}
+
+
+.home-accent {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 40px;
+  color: #2D278C;
+  letter-spacing: 0.15em;
+  margin-bottom: 24px;
+}
+
+.cursor {
+  font-weight: 600;
+}
+
+/* Paragraph text */
+.home-description {
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 18px;
+  color: #787373;
+  padding-bottom: 20px;
+
+}
+
+/* Placeholder for right-side illustration */
+.home-illustration {
+  width: 220px;
+  height: 220px;
+  background-color: transparent;
+}
+
+.scroll-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;   
+  
+  animation: bounce 1.5s infinite;  
+  text-decoration: none;       
+}
+
+.scroll-button {
+  margin: 0;
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 16px;
+  color: #140D4A;
+}
+
+
+.arrow-icon {
+  width: 19px;
+  height: auto;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+
+.home-cat{
+  height: auto;
+  max-width: 100%;    /* never overflow its column */  
+  opacity: 0.9;
+
+}
+
+
+
+

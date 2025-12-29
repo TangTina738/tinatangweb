@@ -1,0 +1,93 @@
+/* -----------------------------
+   MEDIA CONTAINER
+------------------------------ */
+.work-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow:
+    rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.work{
+   box-shadow:
+    rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+/* -----------------------------
+   VIDEO / IMAGE MEDIA
+------------------------------ */
+.work-video,
+.work-cover {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+
+  pointer-events: none; /* 🔑 prevents native cursor from video */
+}
+
+/* -----------------------------
+   DARK OVERLAY
+------------------------------ */
+.work-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(40, 40, 40, 0.35);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* 🔑 overlay never steals hover */
+}
+
+.work-media:hover::after {
+  opacity: 1;
+}
+
+/* -----------------------------
+   HOVER SCALE
+------------------------------ */
+.work-media:hover .work-video,
+.work-media:hover .work-cover {
+  transform: scale(1.02);
+}
+
+/* -----------------------------
+   LINK (ANCHOR) FIX
+------------------------------ */
+.work-media-link,
+.work-media-link:link,
+.work-media-link:visited,
+.work-media-link:hover,
+.work-media-link:active,
+.work-media-link * {
+  cursor: none !important;   /* 🔑 kill pointer cursor */
+  display: block;
+  text-decoration: none;
+}
+
+/* -----------------------------
+   LAYOUT / TEXT
+------------------------------ */
+.work-row {
+  padding-top: 46px;
+}
+
+.work-card-title {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  color: #140D4A;
+}
+
+.work-card-desc {
+  font-family: 'Jomolhari', serif;
+}
+
+.work-tags {
+  display: flex;
+  gap: 16px;
+}
+
+
