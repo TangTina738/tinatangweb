@@ -1,4 +1,4 @@
-import "./Style/Home.css";
+import "./style/Home.css";
 import arrow from "./assets/Arrow.png";
 import cat from "./assets/cat2.gif";
 import { Typewriter } from "react-simple-typewriter";
