@@ -13,7 +13,7 @@ function Home() {
         <div className="row align-items-start">
       
           <div className="col-12 col-md-6">
-            <h1 className="home-title">About</h1>
+            <h1 className="home-title">About Me</h1>
             <div>
             <p className="home-description">
              Before designing, I take time to understand <strong>who</strong> I am designing for, <strong>what</strong> they care about, and <strong>why</strong> someone might choose to interact with a brand in the first place.
@@ -30,7 +30,7 @@ function Home() {
           </div>
 
   
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 img-wrap">
             <div className="row g-3">
               {aboutImages.map((src, i) => (
                 <div className="col-6" key={i}>

@@ -3,13 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Concert+One&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jomolhari&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Parkinsans:wght@300..800&family=Poppins&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 
-.work-title{
-   font-family:'Source Code Pro', monospace;
-   padding-top: 80px;
-   font-size: 45px;
-   color: #2D278C;
-   padding-top: 100px;
-}
+
 
 .intro-paragraph{
   font-size: 30px;
@@ -130,4 +124,13 @@ font-family: 'Source Code Pro', monospace;
     font-family: 'Kulim Park', sans-serif;
   font-size: 18px;
   color: #787373;
+}
+
+.img-wrap .about-img {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-wrap .about-img:hover {
+  filter: brightness(0.75)
 }

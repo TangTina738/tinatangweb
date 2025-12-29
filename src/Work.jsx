@@ -46,42 +46,54 @@ function Work() {
             </p>
 
             <div className="work-tags">
-              <img src={BrandingTag} className="work-tag" alt="Branding" />
-              <img src={CommunityTag} className="work-tag" alt="Community" />
+              <span className="work-tag-shine">
+                <img src={BrandingTag} className="work-tag" alt="Branding" />
+              </span>
+              <span className="work-tag-shine">
+                <img src={CommunityTag} className="work-tag" alt="Community" />
+              </span>
             </div>
+
           </div>
         </div>
 
-        {/* ROW 2: VSA*/}
-        <div className="row align-items-start work-row">
-          <div className="col-12 col-md-5 work-info">
-            <h3 className="work-card-title">Vietnamese Students’ Association</h3>
-            <p className="work-card-desc">
-              A welcoming space for celebrating Vietnamese culture, forming social
-              connections, and strengthening ties within the local Vietnamese community.
-            </p>
+       {/* ROW 2: VSA*/}
+<div className="row align-items-start work-row">
+  {/* TEXT */}
+  <div className="col-12 col-md-5 work-info order-2 order-md-1">
+    <h3 className="work-card-title">Vietnamese Students’ Association</h3>
+    <p className="work-card-desc">
+      A welcoming space for celebrating Vietnamese culture, forming social
+      connections, and strengthening ties within the local Vietnamese community.
+    </p>
 
-            <div className="work-tags">
-              <img src={BrandingTag} className="work-tag" alt="Branding" />
-              <img src={CommunityTag} className="work-tag" alt="Community" />
-            </div>
-          </div>
-          <div className="col-12 col-md-7">
-            <Link to="/vsa" className="work-media-link">
-            <div className="work-media">
-              <video
-                src={Vsa}
-                className="work-video"
-                autoPlay
-                loop
-                muted
-                playsInline
-              />
-            </div>
-            </Link>
-          </div>
+    <div className="work-tags">
+  <span className="work-tag-shine">
+    <img src={BrandingTag} className="work-tag" alt="Branding" />
+  </span>
+  <span className="work-tag-shine">
+    <img src={CommunityTag} className="work-tag" alt="Community" />
+  </span>
+</div>
 
-        </div>
+  </div>
+
+  {/* MEDIA */}
+  <div className="col-12 col-md-7 order-1 order-md-2">
+    <Link to="/vsa" className="work-media-link">
+      <div className="work-media">
+        <video
+          src={Vsa}
+          className="work-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+      </div>
+    </Link>
+  </div>
+</div>
 
         {/* ROW 3: (temporary) */}
         <div className="row align-items-start work-row">
@@ -107,10 +119,15 @@ function Work() {
               mentorship, and peer connections.
             </p>
 
-            <div className="work-tags">
-              <img src={DesignTag} className="work-tag" alt="Branding" />
-              <img src={CommunityTag} className="work-tag" alt="Community" />
+           <div className="work-tags">
+              <span className="work-tag-shine">
+                <img src={DesignTag} className="work-tag" alt="Branding" />
+              </span>
+              <span className="work-tag-shine">
+                <img src={CommunityTag} className="work-tag" alt="Community" />
+              </span>
             </div>
+
           </div>
         </div>
       </div>
