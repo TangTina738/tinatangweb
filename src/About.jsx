@@ -31,14 +31,15 @@ function Home() {
 
   
           <div className="col-12 col-md-6 img-wrap">
-            <div className="row g-3">
-              {aboutImages.map((src, i) => (
-                <div className="col-6" key={i}>
-                  <img src={src} className="about-img" alt="" />
-                </div>
-              ))}
-            </div>
-          </div>
+  <div className="row g-3 flex-nowrap flex-md-wrap about-img-row">
+    {aboutImages.map((src, i) => (
+      <div className="col-8 col-sm-6 col-md-6" key={i}>
+        <img src={src} className="about-img" alt="" />
+      </div>
+    ))}
+  </div>
+</div>
+
         </div>
       </div>
     </section>

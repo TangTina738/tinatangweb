@@ -1,8 +1,9 @@
 .home-section {
-  min-height: 100vh;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  
+   height: 100vh;            /* not min-height */
+    box-sizing: border-box;   /* padding counts inside the 100vh */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;  
 }
 
 

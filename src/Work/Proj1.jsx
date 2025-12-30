@@ -171,7 +171,7 @@ function Proj1() {
                 {/*Strategy Section */}
                  <div className="strategy">
                         <h2 className="subtext">Strategy</h2>
-                        <h2 className="subtitle">A brand identity that individualizes WDS</h2>
+                        <h2 className="subtitle">A Brand Identity that Individualizes WDS</h2>
 
                         <p className="info-paragraph">I rethought the Instagram feed as a content dense, low-attention environment, where clarity is important to the audience of incoming tech students.
                         </p>
@@ -320,6 +320,12 @@ function Proj1() {
                        By consistently communicating what students gain from attending events rather than simply announcing them, redesigning our branding strategy became a way for persuasion, clarity, and helping tech students feel at ease. Ultimately, this shifted my understanding of Marketing from more than just designing posts that “look good.” 
                        We create content that targets our audiences’ specific needs, giving them a reason to care more about “just another tech club.”
                        </p>
+                </div>
+
+                <div className="upcoming">
+                   <h2 className="subtext">Incoming</h2>
+                   <h2 className="subtitle">What's Next?</h2>
+
                 </div>
 
 
