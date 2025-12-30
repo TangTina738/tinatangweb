@@ -322,14 +322,6 @@ function Proj1() {
                        </p>
                 </div>
 
-                <div className="upcoming">
-                   <h2 className="subtext">Incoming</h2>
-                   <h2 className="subtitle">What's Next?</h2>
-
-                </div>
-
-
-
                 </div>
             </div>
         </div>
