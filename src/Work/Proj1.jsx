@@ -96,9 +96,11 @@ function Proj1() {
                             <h4 className="meta-title">Role</h4>
                             <ul className="meta-list">
                             <li>Vice-President (VP) of Marketing</li>
+                            <ul>
                             <li>Brand Strategy</li>
                             <li>Content Strategy</li>
                             <li>Graphic Design</li>
+                            </ul>
                             </ul>
                         </div>
 
@@ -122,11 +124,16 @@ function Proj1() {
                         <h2 className="subtitle">What's The Problem?</h2>
                         <p className="info-paragraph">My team and I met with students across Western at club fairs to learn what they thought about WDS, our brand, and what we can do for them. 
                             Initial discussions  led us to discover 3 key pain points:</p>
+
                          <ul className="info-paragraph">
                             <li>Instagram content was <b>passive</b> and easy to scroll past</li>
                             <li><b>Visual identity</b> blended in with other tech clubs</li>
                             <li><b>Low emotional connection</b> between students and the brand</li>
                         </ul>
+
+                        <p className="info-paragraph">
+                          In a high-scroll, low-attention environment, WDS struggled to clearly communicate to our audience about who we were and why they should care.
+                        </p>
                          
                          <div className="col-12">
                             <img src={Vision} className="intro-img img-fluid"></img>
@@ -151,14 +158,14 @@ function Proj1() {
                 </div>
 
              <FadeIn className="col-12 col-md-4 offset-md-1">
-                    <h3 className="subtext">Intentional visual systems help students quickly identify and remember a brand. </h3>
-                    <p className="info-paragraph"><strong>Intentional visual systems help students quickly identify and remember a brand. </strong>
-                        The biggest tech clubs at Western all have the same thing in common - a recognizable colour identity, cohesive themes across their media, and a distinct personality which emphasizes the core atmosphere of their community (be it ultra-professional or calm and laid back). 
+                    <h3 className="subtext">Intentional visual systems help students quickly identify and remember a brand </h3>
+                    <p className="info-paragraph">
+                        The biggest tech clubs at Western all have the same thing in common: a recognizable colour identity, cohesive themes across their media, and a distinct personality which emphasizes the core atmosphere of their community (be it ultra-professional or calm and laid back). 
                         Whatever the case is, users know immediately what they are getting into amid a sea of generality and sameness.</p>
                         </FadeIn>
                  <FadeIn className="col-12 col-md-4 offset-md-1">
-                    <h3 className="subtext">Real people and team presence create stronger approachability.</h3>
-                    <p className="info-paragraph"> Being a tech student is hard. 
+                    <h3 className="subtext">Real people and team presence create stronger approachability</h3>
+                    <p className="info-paragraph"> Being a tech student is pressuring. 
                         Finding a community can feel all the more daunting when you’re faced with cold graphics and general designs. Unlike our previous design philosophy, leading competitors included the people behind events in their content to build personable connections with their users, creating a sense of familiarity and community through their design.
                     </p>
                 </FadeIn>
@@ -175,7 +182,7 @@ function Proj1() {
                         <h2 className="subtext">Strategy</h2>
                         <h2 className="subtitle">A Brand Identity that Individualizes WDS</h2>
 
-                        <p className="info-paragraph">I rethought the Instagram feed as a content dense, low-attention environment, where clarity is important to the audience of incoming tech students.
+                        <p className="info-paragraph">Based on these insights, I rethought the Instagram feed as a content dense, low-attention environment, where clarity is important to the audience of incoming tech students.
                         </p>
                         <p className="info-paragraph"> From this, I introduced a semester-based visual system that separates content by time and context:</p>
                         <ol className="info-paragraph">
@@ -183,7 +190,7 @@ function Proj1() {
                           <li><b>Winter Semester:</b> Morning/daytime visuals designed to feel lighter, clearer, and more focused</li>
                         </ol>
                          <h2 className="subtitle">But why?</h2>
-                         <p className="info-paragraph">This approach intentionally <strong>breaks visual uniformity</strong>, allowing students to:</p>
+                         <p className="info-paragraph">This system intentionally <strong>breaks visual uniformity</strong>, allowing students to:</p>
                          <ol className="info-paragraph">
                           <li><b>Quickly</b> differentiate posts while scrolling</li>
                           <li><b>Recognize</b> which semester content belongs to</li>

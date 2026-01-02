@@ -110,9 +110,11 @@ function Proj2() {
               </div>
 
               <div className="problem">
+                 <h2 className="subtext">Problem</h2>
                 <h2 className="subtitle">Cultural Disconnect</h2>
                 <p className="info-paragraph">
-                  The challenge was not low engagement, but an inconsistent and outdated
+                  From a student's perspective, 
+                  the challenge was not low engagement, but an inconsistent and outdated
                   brand system that no longer reflected the evolving identity of the Vietnamese
                   student community. Any redesign risked losing cultural authenticity or
                   alienating long-standing members.

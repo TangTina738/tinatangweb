@@ -39,10 +39,10 @@ function Home() {
             <div className="row">
               <div className="col-12 col-md-7">
                 <p className="home-description mb-1">
-                  I use design and marketing to help understand what type of content strategies drive audiences to engage with a brand.
+                  I use design and marketing to help what type of content strategies drive audiences to engage with a brand.
                 </p>
                 <p className="home-description mt-0">
-                  Through my work with student organizations and tech communities, I transform passive digital media into active, human-focused content.
+                  Through my work with student organizations and tech communities, I transform passive digital media into active, human-focused experiences.
                 </p>
               </div>
             </div>

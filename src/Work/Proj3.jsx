@@ -61,13 +61,14 @@ const sh2Images = [sh6,sh7,sh8,sh9];
             <div className="container">
                 <div className="row">
                 <div className="col-12 col-md-10 offset-md-1">
-                    <ImageCarousel images={shImages} />
+                   <div className="context">
                      <h2 className="subtitle">Context</h2>
                      <p className="info-paragraph">SheHacks+ is dedicated to empowering women and non-binary individuals to grow as innovators, fostering leadership and creativity in a traditionally underrepresented industry, organized by a tech club at Western University called Women+ In Tech Society.
                       </p>
 
                       <p className="info-paragraph">Through Women in Technology+ (WITS+), I had the role of a Design Director, where our team was responsible for creating merchandise assets and ensuring the event’s theme and branding were recognizable and cohesive for our target audience.
                     </p>
+                    </div>
               
               <div className="row mt-4">
                 <div className="col-12 col-md-4">
@@ -75,7 +76,12 @@ const sh2Images = [sh6,sh7,sh8,sh9];
                   <ul className="meta-list">
                     <li>Director of Design</li>
                   </ul>
+                  <ul className="meta-list">
+                    <li>Designed hand-illustrated merchandise assets</li>
+                    <li>Created functional ID card designs for all participants</li>
+                  </ul>
                 </div>
+            
 
                 <div className="col-12 col-md-4">
                   <h4 className="meta-title">Tools/Skills</h4>
@@ -91,10 +97,29 @@ const sh2Images = [sh6,sh7,sh8,sh9];
                 </div>
               </div>
 
+                    <div className="problem">
+                 <h2 className="subtext">Problem</h2>
+                 <h2 className="subtitle">From a Hacker's Perspectve</h2>
+                <p className="info-paragraph">
+                  Hackathons can feel overwhelming. As a participant, you’re dropped into a busy environment where you’re meeting new people, trying to figure out logistics, 
+                  and just hoping you’re in the right place.
+                  For this event, we needed designs that helped hackers feel welcomed and oriented right away. The ID card, in particular, had to be clear and functional while 
+                  still feeling fun and on-theme. If it felt too generic or cluttered, it would just become another thing people ignored.
+                  </p>
+
+                  <p className="info-paragraph">
+                    I had to understand that the ID card and sticker serve the purpose as one of the first interactions hackers have with the hackathon. While the ID card helped participants feel reassured 
+                    and recognized, the stickers added a playful moment that made the environment feel more welcoming. Together, they helped set a tone that balanced 
+                    clarity with personality, making it easier for hackers to settle in and feel like they belonged.
+                    
+                    
+                    </p>
+               </div>
               
               <div className="solution">
                    <h2 className="subtext">The Process</h2>
                     <h2 className="subtitle">Bringing an Idea to Life with My Apple Pencil</h2>
+                     <ImageCarousel images={shImages} />
                     <p className="info-paragraph">
                     These hand-illustrated designs were created in Procreate with care and attention to detail. Using a design brief from the hackathon organizers (with a focus on a more realistic space theme), I designed stickers balancing target aesthetics with marketable designs. Illustrations were then converted to various hackathon merch forms, including stickers and keychains, and were even later adapted for use on official websites and social media.
                 </p>
@@ -123,19 +148,18 @@ const sh2Images = [sh6,sh7,sh8,sh9];
 
                 </p>
 
-               
+         
               
-              <div className="problem">
-                <h2 className="subtext">The Problem</h2>
-                <h2 className="subtitle">Time is Ticking!</h2>
-                 <p className="info-paragraph">
-                  This project was particularly challenging given the extremely 
-                  tight timeline for completion. With a deadline only a week away from the project introduction, I had to balance competing media requests on top of existing academic and extracurricular demands. Through tight scheduling and clear communication with hackathon organizers, I was able to complete the entire process from ideation to creation in the nick of time (shoutout coffee!).
-                </p>
-              </div>
+              <div className="outcome">
+              <h2 className="subtext">Outcome</h2>
+              
+                    <h2 className="subtitle">Hackers Carrying your Artwork</h2>
+                    <p className="info-paragraph">With over <strong>150+</strong> participants, my designs were worn throughout the hackathon and taken home as stickers and keychains. Watching Hacker’s interact with and enjoy something I created was a rewarding reminder of how design can create small but meaningful moments of connection. They may not know it, but they were carrying a piece of my design process with them!</p>
+                 
+                </div> 
             
-            <div className="outcome">
-             <h2 className="subtext">Learnings</h2>
+            <div className="takeaways">
+             <h2 className="subtext">Key Takeaways</h2>
                     <h2 className="subtitle">It's Okay to Raise Your Hand!</h2>
                     <p className="info-paragraph">Through this design process, my design team was extremely supportive and helped me rid of my creative block. One thing I learned was that a design is NEVER "bad." 
                      Whether that would be a product for a customer, a graphic for your social media, or just a thought bubble that floats on top of your head, every design is part of an ongoing process. 
@@ -148,6 +172,11 @@ const sh2Images = [sh6,sh7,sh8,sh9];
                     <p className="info-paragraph">
                 Overall, I learned the importance of planning and being able to work around tight deadlines. This role also taught me the basics of Figma, shaping my interests in design even further.
                 </p>
+                 <h2 className="subtitle">Time is Ticking!</h2>
+                 <p className="info-paragraph">
+                  This project was particularly challenging given the extremely 
+                  tight timeline for completion. With a deadline only a week away from the project introduction, I had to balance competing media requests on top of existing academic and extracurricular demands. Through tight scheduling and clear communication with hackathon organizers, I was able to complete the entire process from ideation to creation in the nick of time (shoutout coffee!).
+                </p>
                  <h2 className="subtitle">Being a Designer Versus Being a Coder</h2>
                  <p className="info-paragraph">As someone who’s always been curious about meaningful work, I started asking myself how design could live alongside technical problem-solving. I reached out to my VP of Design simply to ask why and how design mattered in tech, and that conversation introduced me to User Interaction Design. What really stuck with me was realizing that my love for visual artwork didn’t have to sit separate from technology, but rather that it could be part of it.
 
@@ -155,15 +184,11 @@ const sh2Images = [sh6,sh7,sh8,sh9];
                 <p className="info-paragraph">That curiosity pushed me to explore roles in other clubs and projects, where I began learning what it truly means to design with users in mind. I grew to appreciate how thoughtful interaction design can shape real experiences, not just visuals. I’m excited to keep building on this foundation and continue learning as I find my place in the UI/UX world.
 
               </p>
-              </div>
-
               
-              <div className="outcome">
-              <h2 className="subtext">Outcome</h2>
-                    <h2 className="subtitle">Hackers Carrying your Artwork</h2>
-                    <p className="info-paragraph">With over <strong>150+</strong> participants, my designs were worn throughout the hackathon and taken home as stickers and keychains. Watching Hacker’s interact with and enjoy something I created was a rewarding reminder of how design can create small but meaningful moments of connection. They may not know it, but they were carrying a piece of my design process with them!</p>
-                 
-                </div> 
+              </div>
+                            
+
+
                 <ImageCarousel3 images={sh2Images} />
 
 <div className="scroll-top-section">
