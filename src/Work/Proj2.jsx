@@ -1,6 +1,6 @@
 import "./WorkStyle/Proj1.css";
 
-import ImageCarousel from "./animations/ImageCarousel";
+import ImageCarousel2 from "./animations/ImageCarousel";
 import FadeIn from "./animations/fadeIn";
 
 
@@ -29,11 +29,12 @@ import photo10 from "./WorkAssets/photo10.png";
 import agm1 from "./WorkAssets/agm1.png";
 import agm2 from "./WorkAssets/agm2.png";
 import agm3 from "./WorkAssets/agm3.png";
+import agm4 from "./WorkAssets/agm4.png";
 
 function Proj2() {
   const carouselImages = [photo1, photo2, photo3, photo4, photo5, photo6,photo7,photo8,photo9,photo10];
 
-  const agmImages =[agm1,agm2,agm3];
+  const agmImages =[agm1,agm2,agm3,agm4];
 
   return (
     <>
@@ -133,7 +134,7 @@ function Proj2() {
               <div className="strategy">
                 <h2 className="subtext">Strategy</h2>
                 <h2 className="subtitle">
-                  Students wanted stronger, more recognizable branding across platforms
+                  Students wanted Stronger, More Recognizable Branding Across Platforms
                 </h2>
                 <p className="info-paragraph">
                   To better understand how members perceived VSA’s brand and importance, our team
@@ -224,13 +225,13 @@ function Proj2() {
               </div>
               
                <div className="agm-carousel mt-4">
-                <ImageCarousel images={agmImages} />
+                <ImageCarousel2 images={agmImages} />
               </div>
 
               <div className="takeways">
                 <h2 className="subtext">Key Takeaways</h2>
 
-                <h2 className="subtitle">Do not be afraid of change</h2>
+                <h2 className="subtitle">Do Not Be Afraid of Change</h2>
                 <p className="info-paragraph">
                   Stepping outside of my comfort zone meant challenging VSA’s long-standing
                   visual choices and leading a shift towards a more modern colour palette and
@@ -238,7 +239,7 @@ function Proj2() {
                   created a more consistent and recognizable presence across our platforms.
                 </p>
 
-                <h2 className="subtitle">Teamwork makes the dream work</h2>
+                <h2 className="subtitle">Teamwork Makes the Dream Work</h2>
                 <p className="info-paragraph">
                  Working in a close team to identify pain points, ideate solutions, and iteratively improve design strategies to balance both brand re-imagination and familiarity demanded both effective communication and intense collaboration. Through my experiences, 
                  I learned how to effectively integrate diverse perspectives, seek feedback from stakeholders, and adjust delegation to match the evolving needs of a project.
@@ -254,7 +255,7 @@ function Proj2() {
             
               <div className="mt-4">
                 <h2 className="subtext">Graphic Work</h2>
-                <ImageCarousel images={carouselImages} />
+                <ImageCarousel2 images={carouselImages} />
               </div>
             </div>
           </div>
