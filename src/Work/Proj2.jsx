@@ -13,6 +13,7 @@ import vsaLogo from "./WorkAssets/vsaLogo.png";
 import vsaOutcome from "./WorkAssets/vsaOutcome.png";
 
 
+import upArrow from "./WorkAssets/up.png";
 import Vsa from "./WorkAssets/vsaWork.mp4";
 
 import photo1 from "./WorkAssets/photo1.png";
@@ -257,6 +258,28 @@ function Proj2() {
                 <h2 className="subtext">Graphic Work</h2>
                 <ImageCarousel2 images={carouselImages} />
               </div>
+               <div className="scroll-top-section">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-12 d-flex justify-content-center">
+                        <a
+                          href="#"
+                          className="scroll-text"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                        >
+                          <img src={upArrow} alt="Scroll to top" className="arrow-icon" />
+                          <p className="scroll-button">back to top</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              
             </div>
           </div>
         </div>

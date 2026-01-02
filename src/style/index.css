@@ -146,6 +146,6 @@ font-family: 'Source Code Pro', monospace;
 }
 
 
-.role-desc{
-  padding-top:
+.scroll-top-section {
+  padding-top: 60px;      /* pushes it away from content */
 }

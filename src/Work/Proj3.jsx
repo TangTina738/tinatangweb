@@ -17,6 +17,9 @@ import sh7 from "./WorkAssets/sh7.png";
 import sh8 from "./WorkAssets/sh8.png";
 import sh9 from "./WorkAssets/sh9.png";
 
+import upArrow from "./WorkAssets/up.png";
+
+
 function Proj3() {
 
 const shImages = [sh1, sh2, sh3, sh4, sh5];
@@ -159,8 +162,30 @@ const sh2Images = [sh6,sh7,sh8,sh9];
               <h2 className="subtext">Outcome</h2>
                     <h2 className="subtitle">Hackers Carrying your Artwork</h2>
                     <p className="info-paragraph">With over <strong>150+</strong> participants, my designs were worn throughout the hackathon and taken home as stickers and keychains. Watching Hacker’s interact with and enjoy something I created was a rewarding reminder of how design can create small but meaningful moments of connection. They may not know it, but they were carrying a piece of my design process with them!</p>
-                  <ImageCarousel3 images={sh2Images} />
-                </div>
+                 
+                </div> 
+                <ImageCarousel3 images={sh2Images} />
+
+<div className="scroll-top-section">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 d-flex justify-content-center">
+        <a
+          href="#"
+          className="scroll-text"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
+          <img src={upArrow} alt="Scroll to top" className="arrow-icon" />
+          <p className="scroll-button">back to top</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
                 </div>
                 </div>
             </div>

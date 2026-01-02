@@ -14,6 +14,8 @@ import point from './WorkAssets/Point.png';
 import night from './WorkAssets/nightime.png';
 import day from './WorkAssets/daytime.png';
 
+import upArrow from "./WorkAssets/up.png";
+
 function Proj1() {
     
 
@@ -321,11 +323,31 @@ function Proj1() {
                        We create content that targets our audiences’ specific needs, giving them a reason to care more about “just another tech club.”
                        </p>
                 </div>
+                <div className="scroll-top-section">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-12 d-flex justify-content-center">
+                        <a
+                          href="#"
+                          className="scroll-text"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                        >
+                          <img src={upArrow} alt="Scroll to top" className="arrow-icon" />
+                          <p className="scroll-button">back to top</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
 
                 </div>
             </div>
         </div>
-        
+
         
     </section>
     </>
