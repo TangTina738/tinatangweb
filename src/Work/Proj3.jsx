@@ -175,7 +175,7 @@ const sh2Images = [sh6,sh7,sh8,sh9];
                  <h2 className="subtitle">Time is Ticking!</h2>
                  <p className="info-paragraph">
                   This project was particularly challenging given the extremely 
-                  tight timeline for completion. With a deadline only a week away from the project introduction, I had to balance competing media requests on top of existing academic and extracurricular demands. Through tight scheduling and clear communication with hackathon organizers, I was able to complete the entire process from ideation to creation in the nick of time (shoutout coffee!).
+                  tight timeline for completion. With a deadline only a week away from the project introduction, I had to balance competing media requests on top of existing academic and extracurricular demands. Through tight scheduling and clear communication with hackathon organizers, I was able to complete the entire process from ideation to creation in the nick of time.
                 </p>
                  <h2 className="subtitle">Being a Designer Versus Being a Coder</h2>
                  <p className="info-paragraph">As someone who’s always been curious about meaningful work, I started asking myself how design could live alongside technical problem-solving. I reached out to my VP of Design simply to ask why and how design mattered in tech, and that conversation introduced me to User Interaction Design. What really stuck with me was realizing that my love for visual artwork didn’t have to sit separate from technology, but rather that it could be part of it.

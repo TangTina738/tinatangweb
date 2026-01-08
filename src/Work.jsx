@@ -113,7 +113,7 @@ function Work() {
           </div>
 
           <div className="col-12 col-md-5 work-info">
-            <h3 className="work-card-title">Women in Tech+</h3>
+            <h3 className="work-card-title">Women+ in Tech</h3>
             <p className="work-card-desc">
               Building community and confidence through inclusive tech events,
               mentorship, and peer connections.
